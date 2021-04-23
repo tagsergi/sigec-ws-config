@@ -11,9 +11,10 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
-  datsource:
+  datasource:
     url: jdbc:mysql://localhost:3306/sigec_process
     username: root
     password: password
+
 
 
