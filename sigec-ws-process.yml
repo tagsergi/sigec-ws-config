@@ -6,3 +6,14 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:25001/eureka/
 
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datsource:
+    url: jdbc:mysql://localhost:3306/sigec_process
+    username: root
+    password: password
+
+
