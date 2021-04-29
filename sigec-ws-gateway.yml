@@ -1,0 +1,16 @@
+server:
+  port: 8080
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:25001/eureka/
+
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: notification
+          uri: lb://SIGEC-WS-NOTIFICATION
+          predicates:
+            - Path=/v1/notification/**

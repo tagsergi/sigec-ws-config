@@ -6,7 +6,6 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:25001/eureka/
 
-
 spring:
   jpa:
     hibernate:
