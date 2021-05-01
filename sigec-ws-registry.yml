@@ -7,6 +7,3 @@ eureka:
       defaultZone: http://localhost:25001/eureka/
     register-with-eureka: false
     fetchRegistry: false
-    server:
-      waitTimeInMsWhenSyncEmpty: 0
-
