@@ -6,11 +6,6 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:25001/eureka/
 
-spring:
-  cloud:
-    gateway:
-      routes:
-        - id: notification
-          uri: lb://SIGEC-WS-NOTIFICATION
-          predicates:
-            - Path=/v1/notification/**
+jwt:
+  secret: BvPHGM8C0ia4uOuxxqPD5DTbWC9F9TWvPStp3pb7ARo0oK2mJ3pd3YG4lxA9i8bj6OTbadwezxgeEByY
+  expiration: 86400
