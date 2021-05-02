@@ -13,7 +13,7 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/sigec_process
     username: root
-    password: password
+    password: root
 
 logging:
   level:
