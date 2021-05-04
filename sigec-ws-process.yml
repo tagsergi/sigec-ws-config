@@ -14,8 +14,8 @@ spring:
       ddl-auto: update
   datasource:
     url: jdbc:mysql://localhost:3306/sigec_process
-    username: root
-    password: root
+    username: sigec
+    password: Sigec@Ceenet2020
 
 logging:
   level:
