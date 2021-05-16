@@ -24,10 +24,10 @@ spring:
 
 ovh:
   application:
-    key: G7qrFwOMXHMUnmYs
-    secret: Ck4riilg34ULC13XHthzr4I1dsnrw2VM
+    key: TTAtEKIe8hnWC1BF
+    secret: lWDBYFLDsLY7aI8SnFtkRQ4OBkXCmOH9
   consumer:
-    key: stkVHtn2SlXaBAWr0FNHkwuop7noVR8r
+    key: XyKQZH7KnXKmxLfB8wwIQ7OVfLYXXmh2
   service:
     name: sms-as137940-1
   request:
