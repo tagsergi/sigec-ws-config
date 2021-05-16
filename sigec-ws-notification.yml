@@ -1,8 +1,36 @@
 server:
   port: 7072
 
+logging:
+    level:
+      org.apache.: DEBUG
+
 eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:25001/eureka/
 
+
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:mysql://localhost:3306/sigec_notification
+    username: sigec
+    password: Sigec@Ceenet2020
+
+
+ovh:
+  application:
+    key: G7qrFwOMXHMUnmYs
+    secret: Ck4riilg34ULC13XHthzr4I1dsnrw2VM
+  consumer:
+    key: stkVHtn2SlXaBAWr0FNHkwuop7noVR8r
+  service:
+    name: sms-as137940-1
+  request:
+    method: POST
+    url: https://eu.api.ovh.com/1.0/sms/
+    sender: 4ITAfrica
