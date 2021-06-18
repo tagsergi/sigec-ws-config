@@ -1,0 +1,29 @@
+server:
+  port: 7074
+  servlet:
+    context-path: /payment
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:25001/eureka/
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:mysql://localhost:3306/sigec_payment
+    username: sigec
+    password: Sigec@Ceenet2020
+
+logging:
+  level:
+    org.springframework: ERROR
+    com.ceenet.sigec.ws: DEBUG
+  pattern:
+    console: "%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+    file: "%d %p %c{1.} [%t] %m%n"
+
+
+
