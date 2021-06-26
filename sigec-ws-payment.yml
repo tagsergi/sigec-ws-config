@@ -26,4 +26,15 @@ logging:
     file: "%d %p %c{1.} [%t] %m%n"
 
 
+##  SICAPAY PARAMETERS
+sycapay:
+  parameter:
+    base-url: https://dev.sycapay.net/api
+    notification-url :
+    marchand-id: C_6012D4B5E9759
+    apikey: pk_syca_4d4ac88674fee126ebd106583335fc4ef298d541
+    request-data-format: JSON
+    response-data-format: JSON
+
+
 
