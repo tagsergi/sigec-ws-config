@@ -12,8 +12,8 @@ spring:
   jpa:
     properties:
       hibernate:
-        show_sql: true
-        format_sql: true
+        show_sql: false
+        format_sql: false
     hibernate:
       ddl-auto: update
   datasource:
@@ -26,7 +26,7 @@ logging:
     root: ERROR
     org.springframework: ERROR
     com.ceenet.sigec.ws: DEBUG
-    org.hibernate.type: trace
+    org.hibernate.type: ERROR
   pattern:
     console: "%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
     file: "%d %p %c{1.} [%t] %m%n"
