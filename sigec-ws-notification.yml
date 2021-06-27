@@ -3,7 +3,7 @@ server:
 
 logging:
     level:
-      org.apache.: INFO
+      org.apache.: ERROR
 
 eureka:
   client:

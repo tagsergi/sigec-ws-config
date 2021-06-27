@@ -14,6 +14,6 @@ jwt:
 
 logging:
   level:
-    org.apache.http: INFO
+    org.apache.http: ERROR
     httpclient:
-      wire: INFO
+      wire: ERROR
