@@ -14,6 +14,6 @@ jwt:
 
 logging:
   level:
-    org.apache.http: DEBUG
+    org.apache.http: INFO
     httpclient:
-      wire: DEBUG
+      wire: INFO
