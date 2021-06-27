@@ -14,6 +14,7 @@ jwt:
 
 logging:
   level:
+    root: ERROR
     org.apache.http: ERROR
     httpclient:
       wire: ERROR
