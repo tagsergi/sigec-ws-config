@@ -8,6 +8,7 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:25001/eureka/
 
+
 spring:
   jpa:
     properties:
@@ -21,6 +22,7 @@ spring:
     username: sigec
     password: Sigec@Ceenet2020
 
+
 logging:
   level:
     root: ERROR
@@ -30,6 +32,3 @@ logging:
   pattern:
     console: "%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
     file: "%d %p %c{1.} [%t] %m%n"
-
-
-
